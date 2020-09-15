@@ -1,0 +1,50 @@
+{
+  "name": "react-redux-toolkit-application",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@reduxjs/toolkit": "1.2.5",
+    "axios": "^0.19.2",
+    "cypress-localstorage-commands": "^1.2.2",
+    "history": "^5.0.0",
+    "mutationobserver-shim": "^0.3.7",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-hook-form": "^5.7.2",
+    "react-redux": "7.2.0",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "3.0.1",
+    "react-table": "^7.2.1",
+    "redux": "4.0.5"
+  },
+  "devDependencies": {
+    "bulma": "^0.9.0",
+    "cypress": "^4.12.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "node-sass": "^4.14.1",
+    "start-server-and-test": "^1.11.3",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "cy:run": "cypress run",
+    "test": "react-scripts test --env=jsdom",
+    "test-ci": "start-server-and-test start http://localhost:3000 cy:run",
+    "eject": "react-scripts eject",
+    "cypress": "cypress open"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

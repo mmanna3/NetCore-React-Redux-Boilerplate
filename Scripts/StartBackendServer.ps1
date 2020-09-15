@@ -1,0 +1,1 @@
+cd ../Backend/Api;dotnet run

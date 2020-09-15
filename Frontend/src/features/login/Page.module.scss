@@ -1,0 +1,30 @@
+@import 'universal.scss';
+
+.columns {
+  display: flex;
+  height: 100vh;
+}
+
+.loginForm {
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  margin: auto auto;
+  width: 70%;
+
+  @include from($tablet) {
+    width: 50%;
+  }
+}
+
+
+/* Use something like this to center the content inside the columns
+   Suggest using better classes to select them based on your project
+
+   .column elements have .is-flex added to make them flex
+*/
+
+.title, .login-form {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: initial;
+}

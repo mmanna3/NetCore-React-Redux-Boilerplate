@@ -1,0 +1,12 @@
+@import 'universal.scss';
+
+.table thead tr th {
+    border: 1px solid $primary-invert;
+    background-color: $primary;
+    color:$primary-invert;
+}
+
+.table {
+    border-collapse: separate;  //Para que al seleccionar las celdas, les pueda dar border-radius
+    // border-radius: 10px;
+}
